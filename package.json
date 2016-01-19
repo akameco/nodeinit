@@ -1,0 +1,23 @@
+{
+  "name": "nodeinit",
+  "version": "0.0.1",
+  "description": "setup node project",
+  "main": "cli.js",
+  "bin": {
+    "nodeinit": "cli.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "node",
+    "setup",
+    "init"
+  ],
+  "author": "akameco",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "xo": "^0.12.1"
+  }
+}
