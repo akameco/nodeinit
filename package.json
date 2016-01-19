@@ -1,5 +1,5 @@
 {
-  "name": "nodeinit",
+  "name": "@akameco/nodeinit",
   "version": "0.0.1",
   "description": "setup node project",
   "main": "cli.js",
