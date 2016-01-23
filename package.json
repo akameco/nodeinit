@@ -21,6 +21,7 @@
     "xo": "^0.12.1"
   },
   "dependencies": {
-    "meow": "^3.7.0"
+    "meow": "^3.7.0",
+    "readme-gen": "0.0.1"
   }
 }

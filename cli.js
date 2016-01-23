@@ -2,6 +2,7 @@
 'use strict';
 const meow = require('meow');
 const exec = require('child_process').exec;
+const readmeGen = require('readme-gen');
 
 meow(`
   Usage
@@ -23,3 +24,6 @@ exec('gibo Node >> .gitignore', (err, stdout, stderr) => {
   }
   console.log('create .gitignore');
 });
+
+readmeGen();
+console.log('create README.md');
