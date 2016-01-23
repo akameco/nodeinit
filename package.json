@@ -1,6 +1,6 @@
 {
   "name": "@akameco/nodeinit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "setup node project",
   "main": "cli.js",
   "bin": {
