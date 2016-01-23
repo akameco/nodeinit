@@ -13,6 +13,7 @@ exec('git init', (err, stdout, stderr) => {
     console.log('git error', err);
     process.exit(0);
   }
+  console.log('git init');
 });
 
 exec('gibo Node >> .gitignore', (err, stdout, stderr) => {
@@ -20,4 +21,5 @@ exec('gibo Node >> .gitignore', (err, stdout, stderr) => {
     console.log('gibo error > ', err);
     process.exit(0);
   }
+  console.log('create .gitignore');
 });
