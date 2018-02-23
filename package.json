@@ -17,11 +17,11 @@
   "author": "akameco",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.10.0",
-    "xo": "^0.12.1"
+    "ava": "^0.25.0",
+    "xo": "^0.20.3"
   },
   "dependencies": {
-    "meow": "^3.7.0",
-    "readme-gen": "0.0.1"
+    "meow": "^4.0.0",
+    "readme-gen": "0.0.4"
   }
 }
